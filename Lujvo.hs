@@ -139,7 +139,7 @@ rafsiScore :: Rafsi -> Int
 rafsiScore r =
   case rafsiForm r of
     FiveLetter -> if isVowel (r !! 1) then 1 else 3
-    FourLetter -> if isVowel (r !! 2) then 2 else 4
+    FourLetter -> if isVowel (r !! 1) then 2 else 4
     CVC        -> 5
     CCV        -> 7
     CVV        -> if '\'' `elem` r then 6 else 8
