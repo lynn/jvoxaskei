@@ -15,8 +15,8 @@ Haskell implementation of the Lojban lujvo-making algorithm.
 (8796,"jvoxaskei")
 (9916,"luvyxaskei")
 (10866,"jvoxaskelci")
-(10906,"jvoxamsykei")
-(10926,"lujvyxaskei")
+(10926,"jvoxamsykei")
+(10946,"lujvyxaskei")
 >>> bestLujvo tanru
 "jvoxaskei"
 >>> bestLujvo ["tisna", "mabru"]
