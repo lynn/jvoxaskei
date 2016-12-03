@@ -1,5 +1,5 @@
 # la jvoxaskei
-Haskell implementation of the Lojban lujvo-making algorithm.
+Haskell implementation of the Lojban lujvo-making and lujvo-scoring algorithms.
 
 ## Usage
 
