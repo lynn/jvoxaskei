@@ -1,6 +1,8 @@
 # la jvoxaskei
 A Haskell implementation of the Lojban lujvo-making and lujvo-scoring algorithms.
 
+You can try it online [here](http://lynn.github.io/lujvo).
+
 ## The Lojban *what?*
 [**Lojban**](http://lojbo.org/) is a [constructed human language](https://en.wikipedia.org/wiki/Constructed_language). The root [content words](https://en.wikipedia.org/wiki/Content_word) in Lojban, such as `cabna` (current) and `djedi` (day), can be smashed together into [compound words](https://en.wikipedia.org/wiki/Compound_(linguistics)) called *lujvo*, such as `cabdei` (today). This process follows a non-deterministic algorithm called the *lujvo-making algorithm*. Another algorithm exists to score its outputs for brevity and *niceness*: the lujvo that is assigned the lowest score is often chosen as the dictionary form of a new compound word.
 
