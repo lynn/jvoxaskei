@@ -1,4 +1,4 @@
-module Rafsi (rafsiFor) where
+module Rafsi (rafsiFor, rafsiMap) where
 
 import qualified Data.Map.Strict as M
 import Data.Map.Strict (Map)
